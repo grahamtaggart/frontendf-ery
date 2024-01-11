@@ -1,0 +1,46 @@
+// IMPORT BOOTSTRAP
+
+// THEME COLORS
+$teal:    #510000;
+$cyan:    #E3CBBF;
+
+// WHITE AND GRAY COLORS
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+// WINE COLORS
+$blunk: #211306;
+$maroon:  #510000;
+$pinkish: #9B2E41;
+$ivory:    #E3CBBF;
+$eclair:    #BEA18E;
+
+$overtone: $blunk;
+$primary: $teal;
+$primary-l: $pinkish;
+$secondary: $cyan;
+$secondary-1: $eclair;
+
+// Accordion Overrides
+
+$accordion-icon-color-dark:         $primary;
+$accordion-icon-active-color-dark:  $secondary;
+
+$accordion-icon-width: 1.0rem;
+
+$accordion-button-icon-dark:         url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-color-dark}'><path fill-rule='evenodd' d='M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2'/></svg>");
+$accordion-button-active-icon-dark:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-active-color-dark}'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+
+// <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+//  <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+//  </svg>
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
